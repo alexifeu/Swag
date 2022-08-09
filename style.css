@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+a:hover{
+    border-radius: 24px;
+    color: blue;
+    padding:17px;
+}
+a{
+    color: white;
+    border-radius: 24px;
+    padding: 17px;
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+}
+.links{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+}
+.signup{
+    text-align: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+button{
+    padding: 17px;
+    border-radius: 20px;
+}
+button:hover{
+    padding: 17px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+input {
+    padding: 15px;
+    border-radius: 24px;
+}
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.00001px white;
+}
+.footer{
+    color: grey;
+    justify-content: center;
+    margin-top: 20px;
+}
