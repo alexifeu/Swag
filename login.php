@@ -1,3 +1,6 @@
+<?php
+    include_once 'header.php';
+?>
 <section class="login-now">
     <h2><br>Thanks for being on <span class="rainbow-text">amogus.com</span> :D</h2>
     <h3>Login</h3>
@@ -21,5 +24,5 @@
 </section>
 
 <?php
-    include_once 'index.php';
+    include_once 'footer.php';
 ?>

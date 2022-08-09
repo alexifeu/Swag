@@ -1,3 +1,6 @@
+<?php
+    include_once 'header.php';
+?>
 <section class="signup-now">
     <h2><br>Join Us Today on <span class="rainbow-text">amogus.com</span></h2>
     <div class="signup">
@@ -38,5 +41,5 @@
 </section>
 
 <?php
-    include_once 'index.php';
+    include_once 'footer.php';
 ?>
