@@ -19,6 +19,23 @@ a{
     background-color: black;
     text-align: center;
 }
+.tos {
+    font-size: 10px;
+    color: grey;
+    border-radius: 0px;
+    background-color: transparent;
+    padding: 0px;
+}
+a.tos:hover{
+    font-size: 10px;
+    color: blue;
+    border-radius: 0px;
+    background-color: transparent;
+    padding: 0px;
+}
+.mail {
+    background-color: transparent;
+}
 .links{
     position: fixed;
     top: 10px;
@@ -49,7 +66,8 @@ input {
     border-radius: 24px;
 }
 .rainbow-text {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-image: linear-gradient(to left, violet, indigo, 
+    blue, green, yellow, orange, red);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

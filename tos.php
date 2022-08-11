@@ -2,7 +2,7 @@
     session_start();
     include_once 'header.php';
 ?>
-<div class="tos">
+<div>
     <br>
     <h1>Terms and Conditions</h1>
     <p>Last updated: August 02, 2022</p>

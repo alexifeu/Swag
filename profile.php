@@ -3,8 +3,8 @@
         session_start();
     }
     include_once 'header.php';
-    $useruid = ($_SESSION["useruid"]);
-    echo "<h1><br> Here is your profile $useruid </h1>";
+    echo "<h1><br>Your Profile</h1>";
+    echo '<p>Username: ' . $user . '</p>';
 ?>
     <p>You can change everything to your liking :^)</p>
     <a href="edit.php">Edit your Profile</a>

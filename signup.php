@@ -13,6 +13,7 @@
             <button type="submit" name="submit">Create Now</button>
         </form>
     </div>
+    <p class="tos">by signing up you agree to our <a class="tos" href="tos.php">terms and conditions</a></p>
     <?php
     if (isset($_GET["error"])) {
         if ($_GET["error"] == "emptyinput") {
