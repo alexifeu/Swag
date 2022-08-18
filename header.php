@@ -20,20 +20,28 @@
 </head>
 <body>
     <div class="links">
-        <a href="index.php?page=start">Start</a>
-        <a href="index.php?page=contact">Kontakt</a>
-        <a href="tos.php">Legal</a>
+        <a href="index.php?page=start"><span class="material-symbols-outlined">home
+        </span></a>
+        <a href="index.php?page=contact"><span class="material-symbols-outlined">
+        contact_support
+        </span></a>
+        <a href="tos.php"><span class="material-symbols-outlined">policy
+        </span></a>
         <?php
             if (isset($_SESSION["useruid"])) {
                 $headline = 'Herzlich Willkommen ';
                 $user = ($_SESSION["useruid"]);
-                echo "<a href='profile.php'>Profile</a>&nbsp";
+                echo "<a href='profile.php'><span class='material-symbols-outlined'>
+                account_circle
+                </span></a>&nbsp";
                 echo "<a href='logout.inc.php'><span class='material-symbols-outlined'>logout
                 </span></a>";
             }
             else {
                 $headline = 'Herzlich Willkommen ';
-                echo "<a href='signup.php'>Register</a>&nbsp";
+                echo "<a href='signup.php'><span class='material-symbols-outlined'>
+                person_add
+                </span></a>&nbsp";
                 echo "<a href='login.php'><span class='material-symbols-outlined'>
                 login</span></a>";
             }

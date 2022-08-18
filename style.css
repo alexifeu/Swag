@@ -52,6 +52,10 @@ a.tos:hover{
   'opsz' 48
 }
 
+.profil {
+    color: aqua;
+}
+
 button{
     padding: 17px;
     border-radius: 20px;
@@ -72,10 +76,11 @@ input {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    -webkit-text-stroke: 0.00001px white;
+    -webkit-text-stroke: 0.00001px rgba(255, 255, 255);
 }
 .footer{
     color: grey;
     justify-content: center;
     margin-top: 20px;
+
 }
